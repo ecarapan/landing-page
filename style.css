@@ -4,8 +4,6 @@ body {
   margin: 0;
 }
 
-
-
 .header {
   background-color: #1F2937;
   margin: 0px;
@@ -28,4 +26,8 @@ ul {
   display: flex;
   justify-content: space-between;
   flex-basis: 400px;
+}
+
+.hero {
+  
 }
