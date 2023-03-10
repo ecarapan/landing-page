@@ -134,6 +134,12 @@ ul {
   border-radius: 5px;
 }
 
+.sign-up p {
+  margin-top: -15px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
 .sign-up button {
   background-color: #3882F6;
   width: 100px;
