@@ -6,7 +6,6 @@ body {
 
 .header {
   background-color: #1F2937;
-  margin: 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -29,5 +28,40 @@ ul {
 }
 
 .hero {
-  
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
 }
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: -10px;
+}
+
+.hero .text {
+  font-size: 18px;
+  color: white;
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero button {
+  background-color: #3882F6;
+  width: 100px;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  padding: 5px;
+}
+
+.hero .image img{
+  width: 400px;
+  border-radius: 10px;
+}
+
+

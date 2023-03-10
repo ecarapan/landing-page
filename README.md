@@ -1,1 +1,1 @@
-# landing-page
+All images are generated locally using Stable Diffusion.
