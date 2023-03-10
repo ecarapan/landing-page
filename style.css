@@ -126,19 +126,21 @@ ul {
   background-color: #3882F6;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: 80px;
   margin-left: 600px;
   margin-right: 600px;
-}
-
-.sign-up .sign-up-content {
-
+  border-radius: 5px;
 }
 
 .sign-up button {
-
+  background-color: #3882F6;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
 }
 
 .footer {
