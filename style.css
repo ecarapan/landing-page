@@ -30,7 +30,7 @@ ul {
 .hero {
   background-color: #1F2937;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 100px;
 }
@@ -56,8 +56,9 @@ ul {
 }
 
 .hero .image img{
-  width: 400px;
+  width: 600px;
   border-radius: 10px;
+  margin-left: -200px;
 }
 
 .content {
@@ -65,7 +66,6 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
   padding: 80px;
   padding-top: 5px;
 }
@@ -100,5 +100,21 @@ ul {
   border: 2px solid blue;
 }
 
+.quote-content {
+  background-color: #E5E7EB;
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.quote-content .quote {
+  font-size: 36px;
+  font-weight: lighter;
+}
 
+.quote-content .author {
+  margin-left: auto;
+  font-size: 15px;
+}
