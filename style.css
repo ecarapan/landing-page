@@ -33,6 +33,7 @@ ul {
   justify-content: space-around;
   align-items: center;
   padding: 100px;
+  flex-wrap: wrap;
 }
 
 .hero h1 {
@@ -97,7 +98,7 @@ ul {
 .content .images img {
   width: 150px;
   border-radius: 10px;
-  border: 2px solid blue;
+  border: 2px solid #3882F6;
 }
 
 .quote-content {
@@ -112,9 +113,37 @@ ul {
 .quote-content .quote {
   font-size: 36px;
   font-weight: lighter;
+  width: 600px;
 }
 
 .quote-content .author {
   margin-left: auto;
   font-size: 15px;
+  width: 600px;
+}
+
+.sign-up {
+  background-color: #3882F6;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+.sign-up .sign-up-content {
+
+}
+
+.sign-up button {
+
+}
+
+.footer {
+  padding: 15px;
+  background-color: #1F2937;
+  text-align: center;
+  color: white;
 }
